@@ -35,7 +35,7 @@ nav ul {
     /* ^makes alignment from left to right */
     justify-content: space-evenly;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    color: rgb(58, 198, 233);
+    color: rgb(18, 129, 233);
     font-size: 25px;
 }
 
@@ -51,6 +51,11 @@ figure {
 
 img {
     width: 100%;
+}
+
+.card img:hover{
+    opacity: .5;
+
 }
 
 .left-side {
