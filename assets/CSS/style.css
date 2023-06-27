@@ -1,0 +1,124 @@
+header {
+    display: flex;
+    /* parent level always display flex */
+    flex-wrap: wrap;
+    /* ^makes the website mobiles responsive */
+    border: 1px black solid;
+    background-color: black;
+
+}
+
+header h1 {
+    width: 45%;
+    /* dividing the width between both children under header for 50/50 spacing  */
+    /* border: 1px black solid; */
+    height: 50px;
+    /* background-color: blue ; */
+    font-size: 30px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(18, 129, 233) ;
+    
+    
+    
+}
+
+header nav {
+    width: 50%;
+    /* dividing the width between both children under header for 50/50 spacing  */
+    border: 1px black solid;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    /* ^makes alignment from left to right */
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    color: rgb(18, 129, 233);
+    font-size: 25px;
+}
+
+figure {
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width:100%;
+
+
+}
+
+img {
+    width: 100%;
+}
+
+.card img:hover{
+    opacity: .5;
+
+}
+
+.left-side {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.left-side .title {
+    width: 10%;
+    border-right: 2px rgb(135, 47, 207) solid;
+    text-align: right;
+    margin-right:20px;
+    color: c;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left-side .section-container {
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* justify-content only works on teh parent level */
+    /* space-between is the space between the children  */
+    color: rgb(18, 129, 233) ;
+}
+
+.card {
+    width: 45%;
+    position: relative;
+    /* relative is on parent */
+    margin-top: 20px;
+
+}
+.card h3{
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    /* bottom moves text up */
+}
+
+.section-container ul{
+    display:flex;
+    flex: row;
+    justify-content: space-evenly;
+    width: 100%
+}
+
+#image1{
+    position: relative;
+    margin-top: 20px;
+}
+
+#image1 h3{
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+}
+
+#figure1{
+    position:relative;
+    
+    
+}
+
